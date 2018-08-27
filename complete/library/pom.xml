@@ -9,10 +9,10 @@
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.3.RELEASE</version>
-        <relativePath /> <!-- lookup parent from repository -->
+        <groupId>org.springframework</groupId>
+        <artifactId>gs-multi-module</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <!--<relativePath /> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
     </parent>
 
     <properties>
@@ -24,10 +24,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+            <version>2.0.3.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <version>2.0.3.RELEASE</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
