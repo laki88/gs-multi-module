@@ -18,6 +18,11 @@
             <url>http://localhost:8081/repository/maven-releases/</url>
             <layout>default</layout>
         </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>snapshots</name>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
     </distributionManagement>
 
     <profiles>
