@@ -4,13 +4,13 @@
 
     <groupId>com.example</groupId>
     <artifactId>gs-multi-module-application</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
 
     <parent>
         <groupId>org.springframework</groupId>
         <artifactId>gs-multi-module</artifactId>
-        <version>0.0.2-SNAPSHOT</version>
+        <version>0.0.2</version>
         <!--<relativePath /> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
     </parent>
 
